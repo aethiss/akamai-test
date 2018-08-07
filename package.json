@@ -1,0 +1,23 @@
+{
+  "name": "akamai-test",
+  "version": "1.0.0",
+  "description": "only for test",
+  "main": "tester.js",
+  "scripts": {
+    "start": "node tester.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aethiss/akamai-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aethiss/akamai-test/issues"
+  },
+  "homepage": "https://github.com/aethiss/akamai-test#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
