@@ -46,7 +46,7 @@ function requestNoRedirect(options) {
         followRedirect: true
       }
 
-      newOptions.headers.setcookie = newOptions.headers['set-cookie']
+      newOptions.headers.cookie = newOptions.headers['set-cookie']
       delete(newOptions.headers['set-cookie'])
 
       console.log('============ SEND REQUEST FROM REDIREDCT TO =============>')
